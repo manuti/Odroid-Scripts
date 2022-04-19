@@ -18,11 +18,7 @@ while true; do
             ;;
     esac
     echo
-    echo "CPU1: $(cat /sys/devices/virtual/thermal/thermal_zone0/temp | cut -c -2)°C"
-    echo "CPU2: $(cat /sys/devices/virtual/thermal/thermal_zone1/temp | cut -c -2)°C"
-    echo "CPU3: $(cat /sys/devices/virtual/thermal/thermal_zone2/temp | cut -c -2)°C"
-    echo "CPU4: $(cat /sys/devices/virtual/thermal/thermal_zone3/temp | cut -c -2)°C"
-    echo "GPU:  $(cat /sys/devices/virtual/thermal/thermal_zone4/temp | cut -c -2)°C"
+    echo "CPU: $(cat /sys/devices/virtual/thermal/thermal_zone0/temp | cut -c -2)°C"
     echo
     echo "Press ctrl+c to stop monitoring."
     sleep 1
