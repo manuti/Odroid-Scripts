@@ -21,5 +21,5 @@ while true; do
     echo "CPU: $(cat /sys/devices/virtual/thermal/thermal_zone0/temp | cut -c -2)°C"
     echo
     echo "Press ctrl+c to stop monitoring."
-    sleep 1
+    sleep 5
 done
