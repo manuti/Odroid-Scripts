@@ -22,4 +22,5 @@ while true; do
     echo
     echo "Press ctrl+c to stop monitoring."
     sleep 5
+    clear
 done
